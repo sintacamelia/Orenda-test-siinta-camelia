@@ -1,15 +1,14 @@
-## Logical Test
+## Logical 
 
 Untuk menjalankan pengujian logis, ikuti langkah-langkah di bawah ini:
 
 1. Pastikan Anda telah menginstal Node.js dan npm.
 2. Buka terminal
 3. Jalankan perintah berikut untuk memulai pengujian logis:
-    [npm run start]
+    [ npm run start ]
 
     Setelah menjalankan perintah di atas, Anda akan melihat output seperti berikut:
 
-    ```
     == PALINDROME ==
     Input: x = 121
     Output: true
@@ -17,16 +16,8 @@ Untuk menjalankan pengujian logis, ikuti langkah-langkah di bawah ini:
     Input: x = 22
     Output: true
     try again? (y/n) : n
-    ```
-
-    - 'Input: x = 121' menunjukkan contoh input yang diberikan.
-    - 'Output: true' menunjukkan hasil pengujian logis terhadap input tersebut.
-    - 'Coba lagi? (y/n) :' meminta apakah Anda ingin mencoba input atau tidak. Menjawab 'y' akan meminta input baru, sedangkan 'n' akan mengakhiri tes logis.
-
-Anda dapat menjalankan pengujian logis dan memeriksa hasilnya sesuai petunjuk di atas.
-
-
-# Testing API
+    
+# uji API
 
 Untuk melakukan pengujian API, ikuti langkah-langkah di bawah ini:
 
@@ -52,8 +43,7 @@ Setelah menyelesaikan semua penyiapan database, jalankan server dengan perintah 
 
 (npm run dev)
 
-
-# Testing All APIs
+# Testing All API
 Anda dapat menguji semua titik akhir API dengan mengakses direktori src/http, yang terdiri dari:
 
 `Admins`
@@ -63,7 +53,7 @@ Anda dapat menguji semua titik akhir API dengan mengakses direktori src/http, ya
 
 Jelajahi setiap direktori untuk menguji fungsionalitas API terkait yang terkait dengan pelanggan, produk, dan pesanan.
 
-# jalankan Frontend and Backend
+# Testing Frontend and Backend
 
 1. Jalankan perintah backend:
     ~ npm run dev ~
